@@ -24,7 +24,7 @@ img {
 }
 
 .navbar {
-  background:rgb(100, 8, 8) !important;
+  background: rgb(100, 8, 8) !important;
   backdrop-filter: blur(10px);
 }
 
@@ -62,8 +62,8 @@ img {
   position: relative;
   background:
     linear-gradient(120deg, rgba(10, 19, 35, 0.8), rgba(10, 19, 35, 0.5)),
-    url(https://unsplash.com/photos/a-group-of-cars-parked-in-a-garage-4-KKQsOM9UY)
-      center/cover no-repeat;
+    url(https://unsplash.com/photos/a-group-of-cars-parked-in-a-garage-4-KKQsOM9UY) center/cover
+      no-repeat;
   color: #fff;
 }
 
