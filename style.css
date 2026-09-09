@@ -1,5 +1,5 @@
 :root {
-  --primary: rgb(59, 16, 16);
+  --primary: rgb(11, 10, 11);
   --primary-strong: red;
   --accent: #f5b700;
   --accent-soft: #fff1b8;
@@ -24,7 +24,7 @@ img {
 }
 
 .navbar {
-  background: rgb(100, 8, 8) !important;
+  background: rgb(18, 17, 20) !important;
   backdrop-filter: blur(10px);
 }
 
