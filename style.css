@@ -1,0 +1,165 @@
+:root {
+  --primary: rgb(59, 16, 16);
+  --primary-strong: red;
+  --accent: #f5b700;
+  --accent-soft: #fff1b8;
+  --dark: #0b0f17;
+  --muted: #0a8bfc;
+  --light: #32456b;
+  --card-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #b6c4e1;
+  color: var(--dark);
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  background:rgb(100, 8, 8) !important;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #e1d8ee !important;
+}
+
+.navbar-nav .nav-link {
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+  color: var(--accent) !important;
+}
+
+.navbar-toggler {
+  border: 1px solid rgba(82, 14, 14, 0.75) !important;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.4rem 0.6rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(245, 183, 0, 0.4);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-width='2.5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.hero-section {
+  position: relative;
+  background:
+    linear-gradient(120deg, rgba(10, 19, 35, 0.8), rgba(10, 19, 35, 0.5)),
+    url(https://unsplash.com/photos/a-group-of-cars-parked-in-a-garage-4-KKQsOM9UY)
+      center/cover no-repeat;
+  color: #fff;
+}
+
+.hero-overlay {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+}
+
+.section-title {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+.car-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.price-badge {
+  background: var(--accent-soft);
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.brand-box {
+  height: 180px;
+  background: linear-gradient(135deg, #ffffff, #edf3ff);
+  border: 1px solid rgba(11, 29, 58, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.brand-box:hover {
+  transform: translateY(-5px);
+}
+
+.brands .brand-logo {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  color: var(--primary);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--accent), #ffd857);
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.cta-banner {
+  background: linear-gradient(135deg, var(--primary), #18356a);
+  color: white;
+  border-radius: 1.25rem;
+}
+
+.page-hero {
+  background: linear-gradient(120deg, rgba(10, 19, 35, 0.85), rgba(18, 31, 52, 0.82));
+  color: #fff;
+}
+
+.page-card {
+  background: #fff;
+  border: 1px solid rgba(11, 29, 58, 0.05);
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
+}
+
+.listing-table {
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+footer {
+  background: #091625;
+  color: #dfe7f4;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    background: rgba(11, 29, 58, 0.96);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin-top: 0.75rem;
+  }
+}

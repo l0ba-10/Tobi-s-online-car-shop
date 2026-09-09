@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Luxury-Autos | Premium Car Dealership</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"
+          >Luxury-<span class="text-warning">Autos</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto gap-lg-3">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="inventory.html">Inventory</a></li>
+            <li class="nav-item"><a class="nav-link" href="brands.html">Brands</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section py-5">
+      <div class="container py-5">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <div class="hero-overlay p-4 rounded-4">
+              <span class="badge bg-warning text-dark px-3 py-2 mb-3"
+                >NEW ARRIVALS • 2026 MODELS</span
+              >
+              <h1 class="display-4 fw-bold mb-3">LUXURY.POWER.EVERY JOURNEY</h1>
+              <p class="lead text-white-50 mb-4">
+                Explore premium cars from top brands with transparent pricing and a smooth buying
+                experience.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="inventory.html" class="btn btn-warning btn-lg px-4 fw-semibold"
+                  >Browse Inventory</a
+                >
+                <a href="contact.html" class="btn btn-outline-light btn-lg px-4"
+                  >Book a Test Drive</a
+                >
+              </div>
+              <div class="row mt-4 g-3">
+                <div class="col-4">
+                  <div class="fw-bold fs-4">4.9/5</div>
+                  <small class="text-white-50">Customer rating</small>
+                </div>
+                <div class="col-4">
+                  <div class="fw-bold fs-4">1500+</div>
+                  <small class="text-white-50">Cars sold</small>
+                </div>
+                <div class="col-4">
+                  <div class="fw-bold fs-4">24/7</div>
+                  <small class="text-white-50">Support</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card bg-transparent border-0 shadow-none">
+              <img
+                src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80"
+                class="img-fluid rounded-4 shadow-lg"
+                alt="Luxury car"
+              />
+              <div class="card-img-overlay d-flex align-items-end p-4">
+                <div class="bg-dark bg-opacity-75 rounded-4 px-3 py-2">
+                  <div class="fw-semibold">2026 Porsche 911 Carrera</div>
+                  <div class="text-warning fw-bold">$94,500</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="inventory" class="py-5">
+        <div class="container">
+          <div class="d-flex align-items-end justify-content-between flex-wrap gap-3 mb-4">
+            <div>
+              <p class="text-warning fw-semibold mb-1">Featured listings</p>
+              <h2 class="section-title display-6">Find your next ride</h2>
+            </div>
+            <a href="inventory.html" class="btn btn-outline-dark">View all cars</a>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-3">
+              <div class="card car-card h-100">
+                <img
+                  src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80"
+                  alt="BMW car"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0">BMW M3</h5>
+                    <span class="badge price-badge px-2 py-1">Sport</span>
+                  </div>
+                  <p class="text-muted small mb-3">Automatic • 3.0L • 2024</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="fw-bold fs-5">$68,900</div>
+                    <button class="btn btn-dark btn-sm">Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+              <div class="card car-card h-100">
+                <img
+                  src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=900&q=80"
+                  alt="Mercedes car"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0">Mercedes C-Class</h5>
+                    <span class="badge price-badge px-2 py-1">Luxury</span>
+                  </div>
+                  <p class="text-muted small mb-3">Automatic • 2.0L • 2025</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="fw-bold fs-5">$52,400</div>
+                    <button class="btn btn-dark btn-sm">Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+              <div class="card car-card h-100">
+                <img
+                  src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80"
+                  alt="Audi car"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0">Audi RS5</h5>
+                    <span class="badge price-badge px-2 py-1">Performance</span>
+                  </div>
+                  <p class="text-muted small mb-3">Automatic • 2.9L • 2024</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="fw-bold fs-5">$74,600</div>
+                    <button class="btn btn-dark btn-sm">Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+              <div class="card car-card h-100">
+                <img
+                  src="https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=900&q=80"
+                  alt="Toyota car"
+                />
+                <div class="card-body p-4">
+                  <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0">Toyota RAV4</h5>
+                    <span class="badge price-badge px-2 py-1">SUV</span>
+                  </div>
+                  <p class="text-muted small mb-3">Automatic • 2.5L • 2026</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="fw-bold fs-5">$39,200</div>
+                    <button class="btn btn-dark btn-sm">Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="brands" class="py-5 bg-white">
+        <div class="container">
+          <div class="text-center mb-5">
+            <p class="text-warning fw-semibold mb-2">Shop by brand</p>
+            <h2 class="section-title display-6">Top brands we carry</h2>
+          </div>
+          <div class="row g-4 brands">
+            <div class="col-6 col-md-4 col-lg-2">
+              <div
+                class="brand-box rounded-4 d-flex flex-column align-items-center justify-content-center text-center p-3"
+              >
+                <div class="brand-logo">BMW</div>
+                <small class="text-muted">Performance</small>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div
+                class="brand-box rounded-4 d-flex flex-column align-items-center justify-content-center text-center p-3"
+              >
+                <div class="brand-logo">MERC</div>
+                <small class="text-muted">Luxury</small>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div
+                class="brand-box rounded-4 d-flex flex-column align-items-center justify-content-center text-center p-3"
+              >
+                <div class="brand-logo">AUDI</div>
+                <small class="text-muted">Innovation</small>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div
+                class="brand-box rounded-4 d-flex flex-column align-items-center justify-content-center text-center p-3"
+              >
+                <div class="brand-logo">PORS</div>
+                <small class="text-muted">Iconic</small>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div
+                class="brand-box rounded-4 d-flex flex-column align-items-center justify-content-center text-center p-3"
+              >
+                <div class="brand-logo">TOY</div>
+                <small class="text-muted">Reliable</small>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div
+                class="brand-box rounded-4 d-flex flex-column align-items-center justify-content-center text-center p-3"
+              >
+                <div class="brand-logo">LEX</div>
+                <small class="text-muted">Comfort</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <p class="text-warning fw-semibold mb-2">Why choose us</p>
+            <h2 class="section-title display-6">Drive with confidence</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 p-4 text-center">
+                <div class="feature-icon mx-auto mb-3">✓</div>
+                <h5>Certified quality</h5>
+                <p class="text-muted mb-0">
+                  Every vehicle is inspected, maintained, and backed by verified service records.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 p-4 text-center">
+                <div class="feature-icon mx-auto mb-3">%</div>
+                <h5>Flexible financing</h5>
+                <p class="text-muted mb-0">
+                  Tailored payment plans and quick approvals to suit your budget and lifestyle.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 p-4 text-center">
+                <div class="feature-icon mx-auto mb-3">⚡</div>
+                <h5>Fast delivery</h5>
+                <p class="text-muted mb-0">
+                  Get your car home quickly with our streamlined paperwork and delivery process.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container pb-5">
+        <div
+          class="cta-banner p-5 d-flex flex-column flex-md-row justify-content-between align-items-center gap-4"
+        >
+          <div>
+            <p class="text-warning fw-semibold mb-2">Limited-time offer</p>
+            <h3 class="mb-0">Get up to $2,500 in savings on selected models.</h3>
+          </div>
+          <a href="contact.html" class="btn btn-warning btn-lg fw-semibold">Claim Offer</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="pt-5 pb-4">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h4 class="fw-bold mb-3">Luxury-<span class="text-warning">Autos</span></h4>
+            <p class="text-secondary">
+              Premium vehicles for drivers who expect performance, comfort, and reliability.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h6 class="text-uppercase text-white-50 mb-3">Visit us</h6>
+            <ul class="list-unstyled text-secondary mb-0">
+              <li>67 Rich ville</li>
+              <li>Miami, LA</li>
+              <li>(666) 567-2078</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="text-uppercase text-white-50 mb-3">Hours</h6>
+            <ul class="list-unstyled text-secondary mb-0">
+              <li>Mon - Sat: 8:00 AM - 6:00 PM</li>
+              <li>Sunday: 12:00 AM - 4:00 PM</li>
+              <li>sales@Luxury-Autos.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-top border-secondary mt-4 pt-3 text-center text-secondary small">
+          © 2026 Luxury-Autos. All rights reserved.
+        </div>
+      </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
